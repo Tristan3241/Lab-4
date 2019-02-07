@@ -7,30 +7,27 @@ OU EMAIL____________: tristan.j.alvey-1@ou.edu
 Tasks:
 1. Create Animal equals method
 2. Test getters(Animal)
-3. Test setters(Animal)
-4. Test Full Constructor(Animal)
-5. Create Equipment equals method
-6. Test getters(Equipment)
-7. Test setters(Equipment)
-8. Test constructor(Equipment)
+3. Test Full Constructor(Animal)
+4. Create Equipment equals method
+5. Test getters(Equipment)
+6. Test setters(Equipment)
+7. Test constructor(Equipment)
 
 Estimated Time (minutes):
 1. 5
-2. 
-3.
+2. 5
+3. 5
 4. 10
-5.
-6.
-7.
-8.
+5. 10
+6. 5
+7. 5
 
 Actual Time (minutes):
 1. 3
-2. 
-3.
+2. 5
+3. 8
 4. 5
 5.
 6.
 7.
-8.
 */}

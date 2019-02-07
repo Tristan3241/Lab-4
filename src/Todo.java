@@ -16,9 +16,21 @@ Tasks:
 
 Estimated Time (minutes):
 1. 5
-2. XXx
+2. 
+3.
+4. 10
+5.
+6.
+7.
+8.
 
 Actual Time (minutes):
 1. 3
-2. XXX
+2. 
+3.
+4. 5
+5.
+6.
+7.
+8.
 */}

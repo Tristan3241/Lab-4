@@ -21,9 +21,9 @@ public class ZooTest {
 		zoo.addAnimal(ani);
 		zoo.addAnimal(ani2);
 		zoo.addAnimal(ani3);
-		double expected = (int) 91.12/3;
-		double actual = zoo.getAverageWeight();
-		Assert.assertEquals(expected, actual, 0.01);
+		double expected = 3;
+		double actual = zoo.getCapacity();
+		Assert.assertEquals(expected, actual);
 	}
 	//tests toString()
 	public void toStringTest() throws AssertException {

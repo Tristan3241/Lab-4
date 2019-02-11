@@ -24,6 +24,15 @@ public class ZooTest {
 		double expected = 3;
 		double actual = zoo.getCapacity();
 		Assert.assertEquals(expected, actual);
+		//testing the extendZoo method, which doubles the capacity once its reached 3 * 2 = 6
+		Animal ani4 = new Animal("yellow", "Jerry", 60.90, 36.89);
+		zoo.addAnimal(ani4);
+		//double the starting capacity
+		expected = 6;
+		actual = zoo.getCapacity();
+		Assert.assertEquals(expected, actual);
+				
+		
 	}
 	//tests toString()
 	public void toStringTest() throws AssertException {

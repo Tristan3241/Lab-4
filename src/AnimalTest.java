@@ -32,7 +32,6 @@ public class AnimalTest
     	Assert.assertEquals(20, animal.getHeight(), 0.01);
     	Assert.assertEquals(200.1, animal.getWeight(), 0.01);
     }
-    // TODO: test full constructor, getters, and toString
     /**
      * Test the toString method
      * @throws AssertException
@@ -43,6 +42,22 @@ public class AnimalTest
     	String actual = ani.toString();
     	
     	Assert.assertEquals(expected, actual);
+    }
+    /**
+     * Tests equals method in Animal testing both true and false case
+     * @throws AssertException
+     */
+    public void equalsTest() throws AssertException{
+    	//testing true case
+    	Animal ani = new Animal ("blue", "Jerry", 25.65,49.57);
+    	Animal ani2 = new Animal ("blue", "Jerry", 25.65, 49.57);
+    	boolean expected = true;
+    	boolean actual = ani.equals(ani2);
+    	Assert.assertEquals(expected, actual);
+    	//testing false case
+    	Animal ani3 = new Animal("Green", "jim", 45, 76);
+    	actual = ani.equals(ani3);
+    	Assert.assertFalse(actual);
     }
 
     //Tested getters in the empty constructor and full constructor
